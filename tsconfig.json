@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "src",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "assumeChangesOnlyAffectDirectDependencies": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "build/dist",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5",
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": false,
+    "types": []
+  },
+  "include": ["src"],
+  "exclude": [
+    "build",
+    "jest",
+    "node_modules",
+    "scripts",
+    "webpack"
+  ]
+}
